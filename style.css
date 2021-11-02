@@ -39,8 +39,9 @@ ul {
   display: flex;
   vertical-align: middle;
   justify-content: center;
-  align-items: center;
   border-radius: 0px 0px 10px 10px;
+  position: -webkit-sticky;
+  position: sticky;
 }
 
 li {
@@ -85,4 +86,32 @@ footer {
   font-family: Open Sans;
   color: white;
   font-size: 10px;
+}
+
+.banner {
+  height: 95%;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  box-shadow: 5px 10px 10px black;
+}
+
+.textHeader {
+  font-family: 'MinecraftiaRegular';
+  text-shadow: 0px 2px 15px black;
+  color: rgb(0, 130, 4);
+  text-align: center;
+}
+
+.textBody {
+  font-family: Open Sans;
+  text-align: center;
+}
+
+.homePageHeader {
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 50px;
 }
