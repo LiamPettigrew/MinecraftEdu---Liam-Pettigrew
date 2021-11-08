@@ -225,3 +225,56 @@ footer {
   justify-content: center;
   display: flex;
 }
+
+.reviewBox {
+  padding: 20px;
+  margin: 0px;
+  max-height:50%;
+  min-height:150px;
+}
+
+.reviewImagesRight {
+  width: 145px;
+  height: 145px;
+  padding: 0px;
+  margin-right: 10%;
+  display: block;
+  float: right;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+.reviewImagesLeft {
+  width: 145px;
+  height: 145px;
+  padding: 0px;
+  margin-left: 10%;
+  display: block;
+  float: left;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  margin-right: 10%;
+}
+
+.starRatingRight {
+  width: 90px;
+  height: 15px;
+}
+
+.starRatingLeft {
+  width: 90px;
+  height: 15px;
+  margin-left: 10%;
+}
+
+.reviewTextRight {
+  font-family: Open Sans;
+  margin-right: 10%;
+}
+
+.reviewTextLeft {
+  font-family: Open Sans;
+  margin-left: 10%;
+  margin-right: 10%;
+}
