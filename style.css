@@ -266,6 +266,8 @@ footer {
   width: 90px;
   height: 15px;
   margin-left: 10%;
+  float: right;
+  display: block;
 }
 
 .reviewTextRight {
@@ -277,4 +279,42 @@ footer {
   font-family: Open Sans;
   margin-left: 10%;
   margin-right: 10%;
+  padding-top: 15px;
 }
+
+.purchaseBox {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 50px;
+}
+
+.purchaseText {
+  font-family: Open Sans;
+  text-align: center;
+}
+
+.pricingButtons {
+  padding: 7px;
+  background-color: rgb(0, 130, 4);
+  text-decoration: none;
+  color: white;
+  font-family: 'MinecraftiaRegular';
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+  border-style: double;
+  border-width: 4px;
+  border-color: white;
+  box-shadow: 0px 2px 15px black;
+  margin: 5px;
+}
+
+.pricingButtons:hover {
+  background-color: rgb(0, 102, 3);
+}
+
+.pricingButtonsContainer {
+  justify-content: center;
+  display: flex;
