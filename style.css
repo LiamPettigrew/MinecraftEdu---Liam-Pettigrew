@@ -386,3 +386,41 @@ footer {
   font-size: 2vw;
   margin-top: 0.25em;
 }
+
+/* faq.html CSS */
+
+.box {
+  width: 90%;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 1px 2px 4px rgba(0,0,0,.3);
+}
+
+.box .heading {
+  background: rgb(0, 130, 4);
+  border-radius: 7px 7px 0px 0px;
+  padding: 10px;
+  color: #fff;
+  text-align: center;
+  font-family: 'MinecraftiaRegular';
+}
+
+.faqs {
+  padding: 0px 20px 20px;
+}
+
+details {
+  background: #f6f6f6;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-top: 20px;
+  font-family: Open Sans;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+details summary {
+  outline: none;
+}
