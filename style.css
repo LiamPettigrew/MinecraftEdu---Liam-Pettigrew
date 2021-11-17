@@ -27,7 +27,7 @@
   font-size: 10px;
 }
 
-ul {
+.navBar {
   list-style-type: none;
   margin: 0;
   margin-left: 10px;
@@ -47,7 +47,7 @@ ul {
   z-index: 2;
 }
 
-li {
+.navButton {
   float: left;
   text-align: center;
   display: flex;

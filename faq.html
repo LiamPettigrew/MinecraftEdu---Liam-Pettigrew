@@ -23,16 +23,18 @@ FAQ page has been added with replicated header and footer.-->
     </div>
     <!-- (COMMIT 1 - 21st October, 2021)
     This is the code for the navigation bar beneath the title bar.-->
-    <ul>
-      <li><a href="index.html" style="font-family:Open Sans;">Home</a></li>
-      <li><a href="featureGallery.html" style="font-family:Open Sans;">Feature Gallery</a></li>
-      <li><a href="faq.html" style="font-family:Open Sans;background-color:#111;">FAQ</a></li>
-      <li><a href="pricing.html" style="font-family:Open Sans;">Pricing</a></li>
+    <ul class="navBar">
+      <li class="navButton"><a href="index.html" style="font-family:Open Sans;">Home</a></li>
+      <li class="navButton"><a href="featureGallery.html" style="font-family:Open Sans;">Feature Gallery</a></li>
+      <li class="navButton"><a href="faq.html" style="font-family:Open Sans;background-color:#111;">FAQ</a></li>
+      <li class="navButton"><a href="pricing.html" style="font-family:Open Sans;">Pricing</a></li>
     </ul>
     <br>
 
     <!-- (COMMIT 9 - 14th November, 2021)
     This is for the Frequently Asked Question categorized boxes. Each category have questions that can be clicked to view the answer below it (using the Summary element).-->
+    <!-- (COMMIT 10 - 17th November, 2021)
+    Each of the four categorised boxes have MinecraftEdu related questions, all found from the official Minecraft Website (the links to the official faqs are in the document), and their detailed answers.-->
 
     <div class="homePageHeader">
       <h3 class="textHeader">Frequently Asked Questions</h1>
@@ -42,61 +44,123 @@ FAQ page has been added with replicated header and footer.-->
     <!-- (COMMIT 9 - 14th November, 2021)
     Category one: 3 questions.-->
     <div class="box">
-       <p class="heading">Category</p>
-       <div class="faqs">
-          <details>
-             <summary style="font-weight:bold;">Question 1</summary>
-             <p class="text">Answer</p>
-          </details>
-          <details>
-             <summary style="font-weight:bold;">Question 2</summary>
-             <p class="text">Answer</p>
-          </details>
-          <details>
-             <summary style="font-weight:bold;">Question 3</summary>
-             <p class="text">Answer</p>
-          </details>
+      <p class="heading">Educators' Guide</p>
+      <div class="faqs">
+        <details>
+          <summary style="font-weight:bold;">Why should I allow students to play Minecraft at school?</summary>
+          <p class="text">Minecraft: Education Edition is a game-based learning platform that offers educators a transformative way to engage students and ignite their passion for learning. The platform contains controls not found in the Consumer editions of Minecraft - which allow instructors to oversight the activities of their students. Educators in years 1-13 are using Minecraft: Education Edition to teach a range of subjects, from history and chemistry to sustainability and foreign languages, and can map lessons directly to specific learning outcomes and curriculum standards.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">How is Minecraft: Education Edition different from standard Minecraft?</summary>
+          <p class="text">Minecraft: Education Edition is a special version of the game developed specifically for educational use. This version adds features and controls for classrooms, specialty blocks and communication tools, and a tutorial for first-time educator use.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">What can I teach with Minecraft: Education Edition?</summary>
+          <p class="text">Much like the game Minecraft, Minecraft: Education Edition is designed to be a versatile and open platform. By utilizing the digital platform and classroom experience, students can also develop skills in collaboration, problem solving, communication, digital citizenship, and more. There is no limit to what students can learn in the game, and no limit to how the game can extend classroom learning.</p>
+        </details>
+      </div>
+    </div>
+
+    <!-- (COMMIT 9 - 14th November, 2021)
+    Category two: 7 questions.-->
+    <div class="box">
+      <p class="heading">Pricing & Eligibility</p>
+      <div class="faqs">
+        <details>
+          <summary style="font-weight:bold;">Where do I buy it?</summary>
+          <p class="text">The process for purchasing Minecraft: Education Edition depends on if you are part of an eligible educational institution or not. For more information on where you can purchase Minecraft: Education Edition licenses, see <a href="https://educommunity.minecraft.net/hc/en-us/articles/360061371532">Purchasing Options for Minecraft: Education Edition</a></p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Do I need anything besides a Minecraft: Education Edition license to play?</summary>
+          <p class="text">Yes, you either need a Office 365 Education account or a Microsoft 365 account.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Who is eligible to purchase Minecraft: Education Edition? Are home schools eligible?</summary>
+          <p class="text">Minecraft: Education Edition is available for anyone to purchase. This includes parents, teachers, and students.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">How much does it cost?</summary>
+          <p class="text">If you are part of an eligible educational institution, Minecraft: Education Edition costs 5 US dollars per user, per year (or local currency pricing). If you are not part of an eligible educational institution, the cost is 12 US dollars per user, per year (or local currency pricing). For more information on how to purchase Minecraft: Education Edition licenses, see <a href="https://educommunity.minecraft.net/hc/en-us/articles/360061371532">Purchasing Options for Minecraft: Education Edition</a></p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Are there any discounts if I buy a large number of licenses for my school? How many user licenses will I need for my school?</summary>
+          <p class="text">School districts and municipalities with a <a href="https://www.microsoft.com/en-us/licensing/licensing-programs/licensing-for-industries?activetab=licensing-for-industries-pivot%3aprimaryr2">Microsoft Enrollment for Education Solutions</a> volume licensing agreement may add Minecraft: Education Edition to their agreement which will give them access across their organization, contact your local Microsoft representative or re seller to learn more. If you are not adding Minecraft: Education Edition through your EES agreement licenses must be purchased individually from the store.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">What are the minimum technical requirements for the Minecraft: Education Edition software?</summary>
+          <p class="text">You can find the technical requirements in <a href="https://educommunity.minecraft.net/hc/en-us/articles/360047556591-Supported-platforms-for-Minecraft-Education-Edition">Supported Platforms for Minecraft: Education Edition<a></p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Is Minecraft: Education Edition available in my country? What languages can I play in?</summary>
+          <p class="text">Our team is adding countries frequently. To access the current list please view our languages and countries offered in our Knowledge Base.</p>
+        </details>
        </div>
     </div>
 
     <!-- (COMMIT 9 - 14th November, 2021)
-    Category two: 3 questions.-->
+    Category three: 5 questions.-->
     <div class="box">
-       <p class="heading">Category</p>
-       <div class="faqs">
-          <details>
-             <summary style="font-weight:bold;">Question 1</summary>
-             <p class="text">Answer</p>
-          </details>
-          <details>
-             <summary style="font-weight:bold;">Question 2</summary>
-             <p class="text">Answer</p>
-          </details>
-          <details>
-             <summary style="font-weight:bold;">Question 3</summary>
-             <p class="text">Answer</p>
-          </details>
-       </div>
+      <p class="heading">Installation</p>
+      <div class="faqs">
+        <details>
+          <summary style="font-weight:bold;">Does Minecraft: Education Edition collect or store student data?</summary>
+          <p class="text">Minecraft: Education Edition uses Office 365 services for authentication, and does not collect or store any personal information within the application.  The Office 365 platform is in full compliance with COPPA, CIPA, and FERPA.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">How do I update Minecraft: Education Edition?</summary>
+          <p class="text">You can set Minecraft: Education Edition to update like any other application you are using in your environment. If no outside settings are put into place they will update as follows.</p>
+          <ul>
+            <li>Store app (Windows) will give a store notification when the update is available. Automatic updates can be configured in store settings.</li>
+            <li>iPad app will update with iOS update and you will be notified like other iOS apps.</li>
+            <li>Mac app will need to manually install from our download page.</li>
+            <li>The Chromebook app will update with the rest of your apps from the Google Play store.</li>
+          </ul>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Can I still use Minecraft: Education Edition version 1.12 and earlier?</summary>
+          <p class="text">On January 23rd 2021, we updated our sign-in servers. After this update, you need to be on Minecraft: Education Edition 1.14.30 or newer and Classroom Mode version 1.80 or newer to sign in. To continue using Minecraft: Education Edition, please update to the latest version.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Why do I need to allow network access to URLs?</summary>
+          <p class="text">Minecraft: Education Edition is built on a services-based architecture that requires communication from the application to external services on the internet. This architecture allows students to access new features such as Immersive Reader and new lesson content. In order to allow communication with these external services, your school network will need to allow traffic between Minecraft: Education Edition and a set of service endpoints. Allowing the following set of URLs will allow access to these services that are integrated into the application itself.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">How do I install Minecraft: Education Edition?</summary>
+          <p class="text">The software download and installation process information can be found in the Pricing page.</p>
+        </details>
+      </div>
     </div>
 
-    <!-- (COMMIT 9 - 14th November, 2021)
-    Category three: 3 questions.-->
+    <!-- (COMMIT 10 - 17th November, 2021)
+    Category four: 6 questions.-->
     <div class="box">
-       <p class="heading">Category</p>
-       <div class="faqs">
-          <details>
-             <summary style="font-weight:bold;">Question 1</summary>
-             <p class="text">Answer</p>
-          </details>
-          <details>
-             <summary style="font-weight:bold;">Question 2</summary>
-             <p class="text">Answer</p>
-          </details>
-          <details>
-             <summary style="font-weight:bold;">Question 3</summary>
-             <p class="text">spaghetti</p>
-          </details>
-       </div>
+      <p class="heading">Features & Teaching</p>
+      <div class="faqs">
+        <details>
+          <summary style="font-weight:bold;">When will Minecraft: Education Edition get the latest Minecraft features?</summary>
+          <p class="text">Minecraft: Education Edition normally runs about one full version behind the Minecraft Bedrock production version. When we start work on our next release, we adopt the latest version of Bedrock possible based on their production cycle as well as how ready their code is for us to adopt. We do this to ensure the best experience for our users.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">How do Multiplayer Games function?</summary>
+          <p class="text">Minecraft: Education Edition multiplayer games take place connecting over IP.  Multiplayer games have a capacity of 30 players, for iPad, Windows, and MacOS. Third-party server style multiplayer is not available on Minecraft: Education Edition.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Can I play multiplayer with users on other Office 365 tenants?</summary>
+          <p class="text">Educators and students can only use the multiplayer feature within their Office 365 EDU tenant, which means students can only collaborate with other students from the same tenant. The scope of a tenant is determined by your school organization, and is normally set to the school or district. You can contact your IT department to understand how your tenant has been set up.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Are there features available for students with disabilities?</summary>
+          <p class="text">Yes we have an Immersive Reader feature. This allows for students to have a screen reading experience through audio.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">What is Classroom Mode and how do I use it?</summary>
+          <p class="text">Classroom Mode is a companion app for Minecraft: Education Edition that enables educators to manage world settings, communicate with students, give items and teleport students in the Minecraft world.</p>
+        </details>
+        <details>
+          <summary style="font-weight:bold;">Does Minecraft: Education Edition offer built-in lesson plans?</summary>
+          <p class="text">A range of Minecraft lessons are available for educators to use across subjects and age levels. Each lesson includes learning objectives, activities, suggested reflection questions, and evidence of learning criteria.</p>
+        </details>
+      </div>
     </div>
 
     <footer>
