@@ -32,7 +32,6 @@
   margin: 0;
   margin-left: 10px;
   margin-right: 10px;
-  padding: 50;
   overflow: hidden;
   background-color: #333;
   top: 0;
@@ -116,7 +115,7 @@ footer {
 .homePageHeader {
   background-color: white;
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px;
   margin: 50px;
 }
 
@@ -423,4 +422,86 @@ details {
 
 details summary {
   outline: none;
+}
+
+/* pricing.html CSS */
+
+.officeLogo {
+  width: 200px;
+  height: 200px;
+  float: right;
+  display: block;
+  margin: 30px;
+  box-shadow: 1px 2px 8px black;
+}
+
+.officeLogo:hover {
+  opacity: 0.5;
+}
+
+.pricingLogos {
+  width: 8vw;
+  height: 8vw;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 30%;
+}
+
+.pricingLogosContainer {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.logoBox {
+  background-color: rgb(240, 240, 240);
+  width: auto;
+  justify-content: center;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-left: 4%;
+  padding-right: 4%;
+  padding-bottom: 40px;
+  border-radius: 10px;
+  text-align: center;
+  display: block;
+}
+
+.logoBox:hover {
+  box-shadow: 1px 2px 8px black;
+  cursor: pointer;
+}
+
+.pricingLogosWording {
+  display: block;
+  text-align: center;
+  font-family: Open Sans;
+}
+
+.downloadButtons {
+  padding: 7px;
+  background-color: rgb(0, 130, 4);
+  text-decoration: none;
+  color: white;
+  font-family: 'MinecraftiaRegular';
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  justify-content: center;
+  border-style: double;
+  border-width: 4px;
+  border-color: white;
+  box-shadow: 0px 2px 15px black;
+  margin: 5px;
+  margin-top: 20px;
+}
+
+.downloadButtons:hover {
+  background-color: rgb(0, 102, 3);
+}
+
+.downloadButtonsContainer {
+  justify-content: center;
+  display: flex;
 }
